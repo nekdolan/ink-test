@@ -14,7 +14,7 @@ export const useCategories = async () => {
         const list = videos.filter(video => category.id === video.category);
         const navVideos = list.map(video => ({
             "label": video.short,
-            "uri": video.path
+            "uri": video.path + '/'
         }))
         return {
             ...category,
