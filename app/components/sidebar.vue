@@ -46,7 +46,7 @@ function isPathUrl(path = '') {
       >
         <ICollapsibleItem :title="category.label" :name="category.id">
           <INavItem
-            :active="route.path.endsWith(item.uri)"
+            :active="route.path === item.uri"
             :to="isPathUrl(item.uri) ? undefined : item.uri"
             :href="isPathUrl(item.uri) ? item.uri : undefined"
             :target="isPathUrl(item.uri) ? '_blank' : undefined"
