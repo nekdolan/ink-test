@@ -14,6 +14,11 @@ const { data: doc } = await useAsyncData(route.path, () => {
   return queryCollection('videos').path(route.path).first();
 })
 
+useSeoMeta({
+  "title": () => doc.value.title,
+  "ogTitle": () => doc.value.title,
+})
+
 const imageModal = ref(false);
 watch(() => imageModalSrc.value, () => {
   if (imageModalSrc.value !== '') {

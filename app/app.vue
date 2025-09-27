@@ -8,6 +8,14 @@ const navigationHistory = ref([]);
 const skipHistory = ref(false);
 const open = ref(false);
 
+useSeoMeta({
+  "ogImage": () => `${siteUrl}/images/social/meta.webp`,
+  "twitterCard": "summary_large_image",
+  "twitterImage": () => `${siteUrl}/images/social/meta.webp`,
+  "author": "Penny Bradley",
+  "creator": "Penny Bradley"
+});
+
 watch(() => route.fullPath, (newRoute, oldRoute) => {
   if (skipHistory.value) {
     skipHistory.value = false;
