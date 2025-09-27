@@ -1,7 +1,7 @@
 <script setup>
 const route = useRoute();
 const { data: categories } = await useAsyncData('categories', () => useCategories())
-const openCategory = categories.value.find(({items}) => items.find(({uri}) => route.path.endsWith(uri) ))
+const openCategory = categories.value.find(({items}) => items.find(({uri}) => uri.endsWith(route.path) ))
 const open = ref([openCategory ? openCategory.id : categories.value[0].id]);
 const props = defineProps(['screenType']);
 const emit = defineEmits(['close']);
