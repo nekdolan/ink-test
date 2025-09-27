@@ -16,12 +16,7 @@
   {
     "label": "Nacht Waffen Pilot",
     "id": "pilot",
-    "items": [
-      {
-        "label": "TEST",
-        "uri": "/test"
-      }
-    ]
+    "items": []
   },
   {
     "label": "Secret Space Program (SSP) & Montauk Survivors",

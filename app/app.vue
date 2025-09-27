@@ -113,12 +113,11 @@ body > div > main.layout {
 .header-container {
   background-image: url('/images/layout/logo-title-small.webp');
   background-repeat: no-repeat;
-  background-position: left center;
+  background-position: left top;
   background-size: contain;
   height: 130px;
   @include breakpoint-up('md') {
     background-image: url('/images/layout/logo-title.webp');
-    background-position: left top;
   }
 }
 #main-container .button-back {

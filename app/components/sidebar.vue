@@ -1,33 +1,11 @@
 <script setup>
 const route = useRoute();
-const appConfig = useAppConfig();
-
-const {data: categories} = await useAsyncData('categories', async () => {
-  const videos = await queryCollection('videos')
-      .orWhere(query => query
-          .where('public', '=', true)
-      )
-      .select('path', 'title', 'date', 'category', 'short')
-      .order('date', 'DESC')
-      .all();
-  return appConfig.navbar.map(category => {
-    const list = videos.filter(video => category.id === video.category);
-    const navVideos = list.map(video => ({
-      "label": video.short,
-      "uri": video.path
-    }))
-    return {
-      ...category,
-      items: [...category.items, ...navVideos]
-    }
-  });
-});
-const openCategory = computed(() => {
-  const category = categories.value.find(({items}) => items.find(({uri}) => route.path.endsWith(uri)));
-  return [category ? category.id : categories.value[0].id];
-});
-const open = ref([]);
+const { data: categories } = await useAsyncData('categories', () => useCategories())
+const openCategory = categories.value.find(({items}) => items.find(({uri}) => uri === route.path ))
+const open = ref([openCategory ? openCategory.id : categories.value[0].id]);
 const props = defineProps(['screenType']);
+const emit = defineEmits(['close']);
+const navbar = categories;
 function isPathUrl(path = '') {
   return path.startsWith('http');
 }
@@ -37,16 +15,15 @@ function isPathUrl(path = '') {
   <ISidebar color="dark" :class="props.screenType">
     <INav vertical size="md">
       <ICollapsible
-        :model-value="open.length ? open : openCategory"
-        @update:model-value="val => open = val"
+        v-model="open"
         color="transparent"
         size="md"
         :key="category.id"
-        v-for="category in categories"
+        v-for="category in navbar"
       >
         <ICollapsibleItem :title="category.label" :name="category.id">
           <INavItem
-            :active="route.path.endsWith(item.uri)"
+            :active="route.path === item.uri"
             :to="isPathUrl(item.uri) ? undefined : item.uri"
             :href="isPathUrl(item.uri) ? item.uri : undefined"
             :target="isPathUrl(item.uri) ? '_blank' : undefined"
