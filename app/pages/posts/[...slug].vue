@@ -11,7 +11,7 @@ function isMobile() {
 }
 
 const { data: doc } = await useAsyncData(route.path, () => {
-  return queryCollection('videos').path(route.path).first();
+  return queryCollection('posts').path(route.path).first();
 })
 
 useSeoMeta({
@@ -39,8 +39,8 @@ watch(() => imageModal.value, () => {
 
 </script>
 <template>
-  <IContainer fluid>
-    <IContainer v-if="doc">
+  <IContainer fluid class="_padding:0">
+    <IContainer v-if="doc" class="_padding:0">
       <h1 class="d5 _margin-top:3 _margin-bottom:2 _text-align:center">{{ doc.title }}</h1>
       <div class="_embed:16:9!">
         <iframe :src="`https://rumble.com/embed/${doc.vid}/?pub=4`"></iframe>
@@ -52,7 +52,7 @@ watch(() => imageModal.value, () => {
     </IContainer>
     <IModal v-model="imageModal" size="lg">
       <template #header> Image Preview </template>
-      <NuxtImg densities="1x" :src="imageModalSrc || imageModalSrcReal" class="_image:responsive" />
+      <NuxtImg densities="1x" :src="imageModalSrc || imageModalSrcReal" class="_image:responsive" v-if="imageModalSrc || imageModalSrcReal"/>
     </IModal>
   </IContainer>
 </template>
