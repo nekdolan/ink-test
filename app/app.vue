@@ -106,7 +106,8 @@ body {
   background-position: top left;
 }
 body > div > main.layout {
-  background-image: url('/images/layout/earth-in-space-bg.webp');
+  //background-image: url('/images/layout/earth-in-space-bg.webp');
+  background-image: url('/images/layout/mars-in-space-bg.webp');
   background-repeat: no-repeat;
   background-position: top center;
 }
