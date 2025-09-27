@@ -16,31 +16,409 @@
   {
     "label": "Nacht Waffen Pilot",
     "id": "pilot",
-    "items": []
+    "items": [
+      {
+        "label": "Q & A -- originally aired 8 May 2021",
+        "uri": "/videos/pilot/qa-20210508"
+      },
+      {
+        "label": "Nacht Waffen Pilot about Alters 13 Feb 2021",
+        "uri": "/videos/pilot/alters-20210213"
+      },
+      {
+        "label": "Nacht Waffen Pilot Round Table 6 Feb 2021",
+        "uri": "/videos/pilot/round-table-20210206"
+      },
+      {
+        "label": "ATOM Q and A -- After the Mapping the Secret Space Program Presentation 12 July 2020",
+        "uri": "/videos/pilot/atom-qa-20200712"
+      },
+      {
+        "label": "Mapping the Secret Space Program--12 July 2020",
+        "uri": "/videos/pilot/mapping-ssp-20200712"
+      },
+      {
+        "label": "Presenting Dollie Indigostar -- 19 December 2019",
+        "uri": "/videos/pilot/dollie-indigostar-20191219"
+      },
+      {
+        "label": "Penny Bradley secret space program recall pt6",
+        "uri": "/videos/pilot/pb-ssp-recall-pt6"
+      },
+      {
+        "label": "Penny Bradley secret space program recall pt 5",
+        "uri": "/videos/pilot/pb-ssp-recall-pt5"
+      },
+      {
+        "label": "Penny Bradley secret space program recall pt4",
+        "uri": "/videos/pilot/pb-ssp-recall-pt4"
+      },
+      {
+        "label": "Penny Bradley secret space program recall pt3",
+        "uri": "/videos/pilot/pb-ssp-recall-pt3"
+      },
+      {
+        "label": "Penny Bradley secret space program recall pt 2",
+        "uri": "/videos/pilot/pb-ssp-recall-pt2"
+      },
+      {
+        "label": "Penny Bradley secret space program recall",
+        "uri": "/videos/pilot/pb-ssp-recall"
+      }
+    ]
   },
   {
     "label": "Secret Space Program (SSP) & Montauk Survivors",
     "id": "ssp",
-    "items": []
+    "items": [
+      {
+        "label": "Nacht Waffen Pilot with Guests Kimberly and Joseph 5 Mar 2022",
+        "uri": "/videos/ssp/kimberly-joseph-20220305"
+      },
+      {
+        "label": "Nacht Waffen Pilot Guest Herr Major 16 Feb 2022",
+        "uri": "/videos/ssp/herr-major-20220216"
+      },
+      {
+        "label": "Nacht Waffen Pilot Guest Joseph Powell 2-5-2022 TRIGGER WARNING!",
+        "uri": "/videos/ssp/joseph-powell-20220205"
+      },
+      {
+        "label": "Nacht Waffen Pilot with Joseph Powell Special 23 Oct 2021",
+        "uri": "/videos/ssp/joseph-powell-20211023"
+      },
+      {
+        "label": "Nacht Waffen Pilot with guest Anthony Zender 4 Sep 2021",
+        "uri": "/videos/ssp/anthony-zender-20210904"
+      },
+      {
+        "label": "Nacht Waffen Pilot with Guest Joseph Powell #4 14 Aug 2021",
+        "uri": "/videos/ssp/joseph-powell-20210814"
+      },
+      {
+        "label": "Nacht Waffen Pilot guest Joseph Powell #4, 29 May 2021, TRIGGER ALERT",
+        "uri": "/videos/ssp/joseph-powell-20210529"
+      },
+      {
+        "label": "Nacht Waffen Pilot with Joseph Powell 4-3-2021 TRIGGER ALERT!",
+        "uri": "/videos/ssp/joseph-powell-20210403"
+      },
+      {
+        "label": "Nacht Waffen Pilot with Guest Joseph Powell pt two 1 30 21",
+        "uri": "/videos/ssp/joseph-powell-p2-20210130"
+      },
+      {
+        "label": "Nacht Waffen Pilot with Guest Joseph Powell 9 Jan 2021",
+        "uri": "/videos/ssp/joseph-powell-20210109"
+      },
+      {
+        "label": "Nacht Waffen Pilot with guest Eric J Hecker 1-2-2021",
+        "uri": "/videos/ssp/eric-hecker-20210102"
+      },
+      {
+        "label": "Nacht Waffen Pilot with guest Eric Hecker 11-14-2020",
+        "uri": "/videos/ssp/eric-hecker-20201114"
+      },
+      {
+        "label": "Nacht Waffen Pilot with Guests Tony Rodrigues and Eric Hecker 10-31-2020.",
+        "uri": "/videos/ssp/rodrigues-hecker-20201031"
+      },
+      {
+        "label": "Nacht Waffen Pilot with Guest Herr Major--10-11- 2020",
+        "uri": "/videos/ssp/herr-major-20201011"
+      },
+      {
+        "label": "Nacht Waffen Pilot with guest Eric Hecker Part 2, 9-26-20",
+        "uri": "/videos/ssp/eric-hecker-p2-20200926"
+      },
+      {
+        "label": "Interview 9 SERVING ON A MILITARY FREIGHTER SHIP IN NACHT WAFFEN",
+        "uri": "/videos/ssp/interview-9-freighter-ship"
+      },
+      {
+        "label": "Interview 8 PILOT SERVICE CONTINUED",
+        "uri": "/videos/ssp/interview-8-pilot-continued"
+      },
+      {
+        "label": "Interview 7 SERVING AS A FIGHTER PILOT ON MARS",
+        "uri": "/videos/ssp/interview-7-fighter-pilot-mars"
+      },
+      {
+        "label": "(interview 6) - STUDYING IN SCHULE - THE GERMAN SCHOOL ON MARS",
+        "uri": "/videos/ssp/interview-6-schule-mars"
+      },
+      {
+        "label": "(interview 5) - THE ARIES PRIMA MARS COLONY",
+        "uri": "/videos/ssp/interview-5-aries-prima"
+      },
+      {
+        "label": "(interview 4) - TIMELINE MANIPULATION AT MONTAUK , THE INHUMAN HUMANS AND THE DRACO EMPIRE",
+        "uri": "/videos/ssp/interview-4-montauk-timeline"
+      },
+      {
+        "label": "Eric Hecker Announcement 6 June 2020",
+        "uri": "/videos/ssp/eric-hecker-announcement-20200606"
+      },
+      {
+        "label": "Eric Hecker 2 --18 April 2020",
+        "uri": "/videos/ssp/eric-hecker-20200418"
+      },
+      {
+        "label": "Presenting Eric Hecker 14 March 2020",
+        "uri": "/videos/ssp/eric-hecker-20200314"
+      },
+      {
+        "label": "Two SSP Veterans Talking in Depth about Service and Draco",
+        "uri": "/videos/ssp/two-ssp-vets-draco"
+      }
+    ]
   },
   {
     "label": "Whistleblowers & Veterans",
     "id": "whistleblowers",
-    "items": []
+    "items": [
+      {
+        "label": "Nacht Waffen Pilot Guest Arkheim Ra 12 Feb 2022",
+        "uri": "/videos/whistleblowers/arkheim-ra-20220212"
+      },
+      {
+        "label": "Nacht Waffen Pilot with Matt Tracy 5 Dec 2021",
+        "uri": "/videos/whistleblowers/matt-tracy-20211205"
+      },
+      {
+        "label": "Nacht Waffen Pilot with Guest Matt Tracy 27 Nov 2021",
+        "uri": "/videos/whistleblowers/matt-tracy-20211127"
+      },
+      {
+        "label": "Nacht Waffen Pilot with Guest Linda Smith 25 Sep 2021",
+        "uri": "/videos/whistleblowers/linda-smith-20210925"
+      },
+      {
+        "label": "Nacht Waffen Pilot with Guest Julie Phelps -- 18 Sep 2021",
+        "uri": "/videos/whistleblowers/julie-phelps-20210918"
+      },
+      {
+        "label": "Nacht Waffen Pilot with Guests Ileana the Star Traveler and John Warner IV 10 July 2021",
+        "uri": "/videos/whistleblowers/ileana-warner-20210710"
+      },
+      {
+        "label": "Nacht Waffen Pilot with guest Matt Tracy 20 March 2021",
+        "uri": "/videos/whistleblowers/matt-tracy-20210320"
+      },
+      {
+        "label": "Nacht Waffen Pilot with Matt Tracy 1-16-2021",
+        "uri": "/videos/whistleblowers/matt-tracy-20210116"
+      },
+      {
+        "label": "Nacht Waffen Pilot with Guest Hendricks 12-19-2020",
+        "uri": "/videos/whistleblowers/hendricks-20201219"
+      },
+      {
+        "label": "Nacht Waffen Pilot with guest Kevin Estrella 12-12-20",
+        "uri": "/videos/whistleblowers/kevin-estrella-20201212"
+      },
+      {
+        "label": "Nacht Waffen Pilot with Guest Rob Yox 12-5-20",
+        "uri": "/videos/whistleblowers/rob-yox-20201205"
+      },
+      {
+        "label": "Nacht Waffen Pilot with Thomas AJ Fry, 11-7-20",
+        "uri": "/videos/whistleblowers/thomas-aj-fry-20201107"
+      },
+      {
+        "label": "Nacht Waffen Pilot with Ileana the Star Traveler 9-5-20",
+        "uri": "/videos/whistleblowers/ileana-20200905"
+      },
+      {
+        "label": "Kevin Estrella from Pyramids On Mars--17 Feb 2020",
+        "uri": "/videos/whistleblowers/kevin-estrella-20200217"
+      },
+      {
+        "label": "Matt Tracy and Will Glover Roundtable--28 January 2020",
+        "uri": "/videos/whistleblowers/tracy-glover-roundtable-20200128"
+      },
+      {
+        "label": "Presenting Matt Tracy 27 January 2020",
+        "uri": "/videos/whistleblowers/matt-tracy-20200127"
+      },
+      {
+        "label": "Nacht Waffen Pilot, Guest Will Golightly Dec 2019",
+        "uri": "/videos/whistleblowers/will-golightly-201912"
+      }
+    ]
   },
   {
     "label": "Researchers & Authors",
     "id": "research",
-    "items": []
+    "items": [
+      {
+        "label": "Nacht Waffen Pilot Guest Aage Nost 2 April 2022",
+        "uri": "/videos/research/aage-nost-20220402"
+      },
+      {
+        "label": "Nacht Waffen Pilot Guest Jeffrey Daugherty 27 Nov 2021",
+        "uri": "/videos/research/jeffrey-daugherty-20211127"
+      },
+      {
+        "label": "Nacht Waffen Pilot With Guest Mary Sutherland 13 Nov 2021",
+        "uri": "/videos/research/mary-sutherland-20211113"
+      },
+      {
+        "label": "Nacht Waffen Pilot Robert Stanley 28 Aug 2021",
+        "uri": "/videos/research/robert-stanley-20210828"
+      },
+      {
+        "label": "Nacht Waffen Pilot with Guest Dr. Paul Cottrell 7 Aug 2021",
+        "uri": "/videos/research/paul-cottrell-20210807"
+      },
+      {
+        "label": "Nacht Waffen Pilot with Guest Walter Bosley 31 July 2021",
+        "uri": "/videos/research/walter-bosley-20210731"
+      },
+      {
+        "label": "Nacht Waffen Pilot with Guest Michael Lee Hill 26 June 2021",
+        "uri": "/videos/research/michael-lee-hill-20210626"
+      },
+      {
+        "label": "Nacht Waffen Pilot with Robert Morningstar 5 June 2021",
+        "uri": "/videos/research/robert-morningstar-20210605"
+      },
+      {
+        "label": "Nacht Waffen Pilot SPECIAL with Billy Carson 24 May 2021",
+        "uri": "/videos/research/billy-carson-20210524"
+      },
+      {
+        "label": "Nacht Waffen Pilot with Gary Leggiere 22 May 2021",
+        "uri": "/videos/research/gary-leggiere-20210522"
+      },
+      {
+        "label": "Nacht Waffen Pilot with Guest Dollie IndigoStar 1-23-21",
+        "uri": "/videos/research/dollie-indigostar-20210123"
+      },
+      {
+        "label": "Nacht Waffen Pilot Guest: Terry Lovelace 11 21 20",
+        "uri": "/videos/research/terry-lovelace-20201121"
+      },
+      {
+        "label": "Nacht Waffen Pilot and Guest Brad Olsen -- 10-17-2020",
+        "uri": "/videos/research/brad-olsen-20201017"
+      },
+      {
+        "label": "Nacht Waffen Pilot with Guest Derek Tyler 9-19-20",
+        "uri": "/videos/research/derek-tyler-20200919"
+      },
+      {
+        "label": "Interview 12 and final THE BLACK GOO AND THE OCCULT HISTORY OF THE ANUNNAKI",
+        "uri": "/videos/research/interview-12-black-goo"
+      },
+      {
+        "label": "Interview 10 THE DRACO, THE GERMANS AND THE REST OF HUMANITY",
+        "uri": "/videos/research/interview-10-draco-germans"
+      },
+      {
+        "label": "Ian Starchild Energy Defense 11 May 2020",
+        "uri": "/videos/research/ian-starchild-20200511"
+      },
+      {
+        "label": "Karen Christine Patrick--7 May 2020",
+        "uri": "/videos/research/karen-christine-patrick-20200507"
+      },
+      {
+        "label": "Ian Starchild--28 April 2020",
+        "uri": "/videos/research/ian-starchild-20200428"
+      },
+      {
+        "label": "Michael Lee Hill 20 April 2020",
+        "uri": "/videos/research/michael-lee-hill-20200420"
+      },
+      {
+        "label": "Presenting Jermaine Chavez and Scott Savoy",
+        "uri": "/videos/research/chavez-savoy"
+      },
+      {
+        "label": "Presenting William N Reviel 29 February 2020",
+        "uri": "/videos/research/william-reviel-20200229"
+      }
+    ]
   },
   {
     "label": "Spirituality, Psionics & Esoteric Knowledge",
     "id": "psionics",
-    "items": []
+    "items": [
+      {
+        "label": "Nacht Waffen Pilot Grail Line 26 Feb 2022",
+        "uri": "/videos/psionics/grail-line-20220226"
+      },
+      {
+        "label": "Nacht Waffen Pilot with Guest Heru Ifagbemi--17 Oct 2021",
+        "uri": "/videos/psionics/heru-ifagbemi-20211017"
+      },
+      {
+        "label": "Nacht Waffen Pilot guest Sean Bond 4-10-2021",
+        "uri": "/videos/psionics/sean-bond-20210410"
+      },
+      {
+        "label": "Interview 11 ALTERS AND TIMELOOPS",
+        "uri": "/videos/psionics/interview-11-timeloops"
+      },
+      {
+        "label": "PENNY BRADLEY (interview 2) - HOW REMEMBERING CHANGED ME FOREVER",
+        "uri": "/videos/psionics/interview-2-remembering"
+      },
+      {
+        "label": "PENNY BRADLEY (interview 1) - DRACO HYBRIDS CREATED BY THE CIA",
+        "uri": "/videos/psionics/interview-1-draco-hybrids"
+      },
+      {
+        "label": "Matt Tracy Psionics June 2020",
+        "uri": "/videos/psionics/matt-tracy-psionics-202006"
+      },
+      {
+        "label": "Sean Bond and Penny Bradley Part 3",
+        "uri": "/videos/psionics/bond-bradley-p3"
+      },
+      {
+        "label": "Sean Bond and Penny Bradley Part 2",
+        "uri": "/videos/psionics/bond-bradley-p2"
+      },
+      {
+        "label": "Penny Bradley & Sean Bond | Psionics, time travel, Nacht Waffen advanced technology",
+        "uri": "/videos/psionics/bradley-bond-psionics"
+      }
+    ]
   },
   {
     "label": "Disclosure & Politics",
     "id": "disclosure",
-    "items": []
+    "items": [
+      {
+        "label": "Nacht Waffen Pilot Guest Rev Ed Brodrick 19 Mar 2022",
+        "uri": "/videos/disclosure/ed-brodrick-20220319"
+      },
+      {
+        "label": "Nacht Waffen Pilot with Guest Doris C Neely Part 3 -- 24 July 2021",
+        "uri": "/videos/disclosure/doris-neely-p3-20210724"
+      },
+      {
+        "label": "Nacht Waffen Pilot guest Doris C Neely part 2",
+        "uri": "/videos/disclosure/doris-neely-p2"
+      },
+      {
+        "label": "Nacht Waffen Pilot guest Doris Neely 27 March 2021",
+        "uri": "/videos/disclosure/doris-neely-20210327"
+      },
+      {
+        "label": "Nacht Waffen Pilot guest Steve Bassett 3-13-2021",
+        "uri": "/videos/disclosure/steve-bassett-20210313"
+      },
+      {
+        "label": "Nacht Waffen Pilot with Guest Miesha Johnston 20 Feb 2021",
+        "uri": "/videos/disclosure/miesha-johnston-20210220"
+      },
+      {
+        "label": "PENNY BRADLEY (interview 3) - SURVIVING MK-ULTRA MIND FRACTURE AT LANGLEY",
+        "uri": "/videos/disclosure/interview-3-mk-ultra-langley"
+      }
+    ]
   }
 ]
