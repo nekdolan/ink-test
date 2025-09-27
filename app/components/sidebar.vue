@@ -1,30 +1,10 @@
 <script setup>
 const route = useRoute();
-const appConfig = useAppConfig();
-
-const videos = await queryCollection('videos')
-    .orWhere(query => query
-        .where('public','=', true)
-    )
-    .select('path', 'title', 'date', 'category', 'short')
-    .order('date', 'DESC')
-    .all();
-
-const categories = computed(() => appConfig.navbar.map(category => {
-  const list = videos.filter(video => category.id === video.category);
-  const navVideos = list.map(video => ({
-    "label": video.short,
-    "uri": video.path
-  }))
-  return {
-    ...category,
-    items: [...category.items, ...navVideos]
-  }
-}));
-
+const { data: categories } = await useAsyncData('categories', () => useCategories())
 const openCategory = categories.value.find(({items}) => items.find(({uri}) => route.path.endsWith(uri) ))
 const open = ref([openCategory ? openCategory.id : categories.value[0].id]);
 const props = defineProps(['screenType']);
+const emit = defineEmits(['close']);
 const navbar = categories;
 function isPathUrl(path = '') {
   return path.startsWith('http');
