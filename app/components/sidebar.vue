@@ -2,35 +2,29 @@
 const route = useRoute();
 const appConfig = useAppConfig();
 
-const categories = appConfig.navbar;
-
-// const {data: categories} = await useAsyncData('categories', async () => {
-//   const videos = await queryCollection('videos')
-//       .orWhere(query => query
-//           .where('public', '=', true)
-//       )
-//       .select('path', 'title', 'date', 'category', 'short')
-//       .order('date', 'DESC')
-//       .all();
-//   return appConfig.navbar.map(category => {
-//     const list = videos.filter(video => category.id === video.category);
-//     const navVideos = list.map(video => ({
-//       "label": video.short,
-//       "uri": video.path
-//     }))
-//     return {
-//       ...category,
-//       items: [...category.items, ...navVideos]
-//     }
-//   });
-// });
-// const openCategory = computed(() => {
-//   const category = categories.value.find(({items}) => items.find(({uri}) => route.path.endsWith(uri)));
-//   return [category ? category.id : categories.value[0].id];
-// });
+const {data: categories} = await useAsyncData('categories', async () => {
+  const videos = await queryCollection('videos')
+      .orWhere(query => query
+          .where('public', '=', true)
+      )
+      .select('path', 'title', 'date', 'category', 'short')
+      .order('date', 'DESC')
+      .all();
+  return appConfig.navbar.map(category => {
+    const list = videos.filter(video => category.id === video.category);
+    const navVideos = list.map(video => ({
+      "label": video.short,
+      "uri": video.path
+    }))
+    return {
+      ...category,
+      items: [...category.items, ...navVideos]
+    }
+  });
+});
 const openCategory = computed(() => {
-  const category = categories.find(({items}) => items.find(({uri}) => route.path.endsWith(uri)));
-  return [category ? category.id : categories[0].id];
+  const category = categories.value.find(({items}) => items.find(({uri}) => route.path.endsWith(uri)));
+  return [category ? category.id : categories.value[0].id];
 });
 const open = ref([]);
 const props = defineProps(['screenType']);
