@@ -68,13 +68,13 @@ function isPathUrl(path = '') {
   }
   .nav .collapsible {
     --collapsible--header--border-width: 0 0 1px 0;
-    --collapsible--header--color: #E6A04D;
-    --collapsible--icon--color: var(--collapsible--header--color, #E6A04D);
+    --collapsible--header--color: #dc7749;
+    --collapsible--icon--color: var(--collapsible--header--color, #dc7749);
     --collapsible--body--padding: 0;
     --collapsible--header--border-bottom-left-radius: 0;
     --collapsible--header--border-bottom-right-radius: 0;
     .collapsible-header:hover, .collapsible-header[aria-expanded="true"] {
-      --collapsible--header--border-color: #E6A04D;
+      --collapsible--header--border-color: #dc7749;
     }
   }
   .nav-item {

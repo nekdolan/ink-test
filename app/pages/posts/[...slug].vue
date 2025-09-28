@@ -58,11 +58,6 @@ watch(() => imageModal.value, () => {
 </template>
 
 <style lang="scss">
-.content-doc {
-  h1, h2, h3, h4 {
-    padding-top: 110px; margin-top: -110px;
-  }
-}
 .modal-wrapper {
   z-index: 10000 !important;
   img {
@@ -72,25 +67,6 @@ watch(() => imageModal.value, () => {
 .modal-wrapper .modal {
   width: initial !important;
   max-width: initial !important;
-}
-@media screen and (max-width: 1100px) {
-  .content-doc {
-    h1, h2, h3, h4 {
-      padding-top: 88px; margin-top: -88px;
-    }
-  }
-  .star-background {
-    padding: 0;
-    & > div.container {
-      width: 100%;
-      padding-left: 0;
-      padding-right: 0;
-      & > h1 {
-        padding-left: 0.5em;
-        padding-right: 0.5em;
-      }
-    }
-  }
 }
 
 </style>
