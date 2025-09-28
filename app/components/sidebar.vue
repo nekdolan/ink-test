@@ -4,7 +4,6 @@ const { data: categories } = await useAsyncData('categories', () => useCategorie
 const openCategory = categories.value.find(({items}) => items.find(({uri}) => uri === route.path ))
 const open = ref([openCategory ? openCategory.id : categories.value[0].id]);
 const props = defineProps(['screenType']);
-const emit = defineEmits(['close']);
 const navbar = categories;
 function isPathUrl(path = '') {
   return path.startsWith('http');
@@ -76,6 +75,9 @@ function isPathUrl(path = '') {
     .collapsible-header:hover, .collapsible-header[aria-expanded="true"] {
       --collapsible--header--border-color: #dc7749;
     }
+    //& > div.-active > a {
+    //  text-shadow: rgba(241, 156, 0, 0.9) 0px 0px 10px;
+    //}
   }
   .nav-item {
     --nav--color: #F2E8DC;
