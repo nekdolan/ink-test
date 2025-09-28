@@ -6,16 +6,17 @@
       {
         "label": "H O M E",
         "uri": "/"
-      },
-      {
-        "label": "TEST",
-        "uri": "/test"
       }
     ]
   },
   {
     "label": "Nacht Waffen Pilot",
     "id": "pilot",
+    "items": []
+  },
+  {
+    "label": "Presentation and Q&A",
+    "id": "presentation",
     "items": []
   },
   {

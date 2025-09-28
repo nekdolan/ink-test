@@ -1,5 +1,10 @@
 <script setup>
+import Post from '~/components/post.vue'
+// const route = useRoute();
 </script>
 <template>
-  <h1>Work in Progress</h1>
+  <Post path="/posts/main" />
 </template>
+
+<style lang="scss">
+</style>
